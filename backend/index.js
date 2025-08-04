@@ -9,7 +9,7 @@ require("dotenv").config();
 require("./utils/bikesScheduler.js");
 const ChatRoom = require("./src/models/chatRoom"); // adjust path if needed
 
-const path = require("path");
+// const path = require("path");
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -118,14 +118,14 @@ app.use((req, res, next) => {
 app.use("/api/messages", require("./src/routes/messageRoutes"));
 app.use("/api", require("./src/routes/requestRouter.js"));
 
-if(process.env.NODE_ENV === "production"){
-	app.use(express.static(path.join(__dirname, "../frontend/dist")));
+// if(process.env.NODE_ENV === "production"){
+// 	app.use(express.static(path.join(__dirname, "../frontend/dist")));
 	
-	app.get("*", (req,res)=> {
-		res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
+// 	app.get("*", (req,res)=> {
+// 		res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
 
-	})
-}
+// 	})
+// }
 
 // Start server
 server.listen(port, () => {
