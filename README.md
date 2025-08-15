@@ -3,7 +3,7 @@
 **EasyBike** is a peer-to-peer bike rental web app. It allows students to list their bikes, discover available bikes near them, send rental requests, and communicate in real time with bike owners.
 
 Hosted on:
-- [https://easy-bike.vercel.app](https://easy-bike.vercel.app)
+- [https://easy-bike-app.onrender.com](https://easy-bike-app.onrender.com)
 ---
 
 ## ✨ Features
