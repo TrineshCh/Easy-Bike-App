@@ -12,7 +12,6 @@ Hosted on:
 - 🏍️ **List & Rent Bikes** – Users can list their bikes and rent others
 - 💬 **Real-time Chat & Call** – Contact bike owners via chat or audio call using Socket.IO
 - 📈 **Admin Dashboard** – See rental statistics, user locations, and demographics
-- 💳 **Razorpay Integration** – Secure payments for rentals
 - 🧾 **Rental History** – View past and current bike rentals
 - 📦 **Responsive UI** – Optimized for desktop and mobile
 
