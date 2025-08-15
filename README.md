@@ -32,7 +32,6 @@ Hosted on:
 - `Firebase Admin SDK` for authentication and user data
 - `MongoDB` with `Mongoose`
 - `Socket.IO` for real-time features
-- `Razorpay` for payments
 - `Render.com` for hosting
 
 ---
